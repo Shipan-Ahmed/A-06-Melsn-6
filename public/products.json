@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Pro",
+    "description": "Automatically generate high-quality blog posts, social media content, and marketing copy with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Unlimited content generation",
+      "Multi-language support",
+      "SEO optimization",
+      "Plagiarism checker"
+    ],
+    "icon": "writing"
+  },
+  {
+    "id": 2,
+    "name": "Social Media Scheduler",
+    "description": "Automate and manage your social media platforms in one place with smart scheduling and analytics.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Post scheduling",
+      "Analytics dashboard",
+      "Multi-platform support",
+      "Auto-publishing"
+    ],
+    "icon": "social-media"
+  },
+  {
+    "id": 3,
+    "name": "Cloud Storage Pro",
+    "description": "Secure and encrypted cloud storage solution for individuals and teams of any size.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "1TB storage",
+      "End-to-end encryption",
+      "File sharing",
+      "Version history"
+    ],
+    "icon": "package"
+  },
+  {
+    "id": 4,
+    "name": "Project Management Suite",
+    "description": "Organize tasks and efficiently collaborate with your team using powerful project management tools.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Task management",
+      "Team collaboration",
+      "Kanban boards",
+      "Progress tracking"
+    ],
+    "icon": "operation"
+  },
+  {
+    "id": 5,
+    "name": "Email Marketing Pro",
+    "description": "Create and send stunning email campaigns with ease, track results and grow your audience.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Email automation",
+      "Beautiful templates",
+      "Subscriber management",
+      "Campaign analytics"
+    ],
+    "icon": "social-media"
+  },
+  {
+    "id": 6,
+    "name": "VPN Secure Plus",
+    "description": "Stay anonymous and safe online with top-tier encryption and servers in 50+ countries.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "50+ server locations",
+      "No logging policy",
+      "Kill switch",
+      "Multi-device support"
+    ],
+    "icon": "rocket"
+  },
+  {
+    "id": 7,
+    "name": "Graphic Design Toolkit",
+    "description": "Create stunning visuals with professional design tools, templates, and an asset library.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ templates",
+      "Design elements",
+      "Brand kit",
+      "Export in HD"
+    ],
+    "icon": "design-tool"
+  },
+  {
+    "id": 8,
+    "name": "Video Editing Pro",
+    "description": "Edit professional-grade videos with AI-powered tools and one-click enhancements.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "4K video editing",
+      "AI background removal",
+      "Auto-subtitles",
+      "Export to all formats"
+    ],
+    "icon": "Play"
+  },
+  {
+    "id": 9,
+    "name": "Website Builder Pro",
+    "description": "Build and launch a professional website without coding using drag-and-drop simplicity.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop editor",
+      "Custom domains",
+      "SEO tools",
+      "Responsive design"
+    ],
+    "icon": "design-tool"
+  },
+  {
+    "id": 10,
+    "name": "Online Learning Platform",
+    "description": "Access thousands of premium courses and tutorials to advance your professional skills.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "1000+ courses",
+      "Live sessions",
+      "Certificates",
+      "Progress tracking"
+    ],
+    "icon": "portfolio"
+  }
+]

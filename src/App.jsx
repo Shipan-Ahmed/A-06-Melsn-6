@@ -7,13 +7,13 @@ import Navbar from './Components/Navbar';
 import Rating from './Components/Rating';
 import Steps from './Components/Steps';
 import Pricing from './Components/Pricing';
+import Optional from './Components/Optional';
 
 function App() {
 
    const [cartItems, setCartItems] = useState([]);
 
    const handleAddToCart = (product) => {
-     // Prevent duplicates
      if (!cartItems.find((item) => item.id === product.id)) {
        setCartItems((prev) => [...prev, product]);
      }
@@ -41,6 +41,7 @@ function App() {
       ></MainSection>
       <Steps></Steps>
       <Pricing></Pricing>
+      <Optional></Optional>
 
     </div>
   );

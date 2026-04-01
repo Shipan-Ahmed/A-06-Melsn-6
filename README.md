@@ -1,16 +1,35 @@
-# React + Vite
+# 🚀 DigiTools — Premium Digital Tools Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern digital tools buying website built with React.js and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools is a sleek e-commerce platform for premium digital products — from AI content tools to cloud storage, video editors, and more. Users can browse products, manage a cart, and explore pricing plans, all in a responsive, beautiful UI.
 
-## React Compiler
+## 🛠 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** — Component-based UI
+- **Tailwind CSS v4** — Utility-first styling
+- **DaisyUI** — UI component library
+- **React-Toastify** — Toast notifications
+- **Vite** — Fast development build tool
+- **JSON** — Product data storage
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Smart Cart System** — Add products with one click, remove individually, and checkout to clear the cart. Cart count updates live in the navbar.
+2. **React-Toastify Alerts** — Beautiful toast notifications on every cart action (add, remove, checkout).
+3. **Product/Cart Toggle** — Seamlessly switch between browsing products and reviewing your cart with animated tab buttons.
+
+## 🚀 Getting Started
+
+```bash
+# Clone or unzip the project
+cd digitools
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```

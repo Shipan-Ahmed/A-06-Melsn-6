@@ -8,23 +8,21 @@ const steps = [
     step: "01",
     title: "Create Account",
     description:
-      "Sign up for your account, provide basic information and choose a plan that works for you to get started.",
+      "Sign up for free in seconds. No credit card required to get started.",
     icon: userIcon,
     color: "bg-violet-100",
   },
   {
     step: "02",
     title: "Choose Products",
-    description:
-      "Browse our curated catalog and select the digital tools that best fit your needs and workflow.",
+    description: "Browse our catalog and select the toolsthat fit your needs.",
     icon: packageIcon,
     color: "bg-blue-100",
   },
   {
     step: "03",
     title: "Start Creating",
-    description:
-      "Download or access your tools directly and start using them to supercharge your productivity immediately.",
+    description: "Download and start using your premium tools immediately.",
     icon: rocketIcon,
     color: "bg-emerald-100",
   },

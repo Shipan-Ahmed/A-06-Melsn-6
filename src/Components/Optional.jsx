@@ -10,11 +10,11 @@ const Optional = () => {
       >
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-extrabold mb-3">
-            Premium Digital Tools
+            Ready to Transform Your Workflow?
           </h2>
           <p className="text-purple-200 text-sm mb-8 leading-relaxed">
-            Join thousands of professionals who trust DigiTools for their
-            digital workflow. Start creating today.
+            Join thousands of professionals who are already using Digitools to
+            work smarter.Start your free trial today.
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <button className="bg-white text-violet-700 font-bold rounded-full px-6 py-3 hover:bg-gray-100 transition-colors cursor-pointer">
@@ -25,7 +25,7 @@ const Optional = () => {
             </button>
           </div>
           <p className="text-purple-300 text-xs mt-6">
-            No credit card required · Cancel anytime · Free 14-day trial
+            14-day free trial • No credit card required • Cancel anytime
           </p>
         </div>
       </section>

@@ -8,6 +8,8 @@ import Rating from './Components/Rating';
 import Steps from './Components/Steps';
 import Pricing from './Components/Pricing';
 import Optional from './Components/Optional';
+import Footer from './Components/Footer';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -42,7 +44,8 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <Optional></Optional>
-
+      <Footer></Footer>
+    <ToastContainer></ToastContainer>
     </div>
   );
 }

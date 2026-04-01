@@ -1,6 +1,8 @@
 import React from "react";
 import { toast } from "react-toastify";
 
+import { FaCheck } from "react-icons/fa";
+
 import packageIcon from "../assets/package.png";
 import playIcon from "../assets/Play.png";
 import rocketIcon from "../assets/rocket.png";
@@ -77,19 +79,7 @@ const ProductCard = ({ product, onAddToCart }) => {
       <ul className="space-y-1.5 mb-6 flex-1">
         {features.map((feature, i) => (
           <li key={i} className="flex items-center gap-2 text-xs text-gray-600">
-            <svg
-              className="w-4 h-4 text-violet-500 shrink-0"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M5 13l4 4L19 7"
-              />
-            </svg>
+              <FaCheck className="text-green-500" />
             {feature}
           </li>
         ))}

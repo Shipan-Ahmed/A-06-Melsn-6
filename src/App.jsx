@@ -5,6 +5,8 @@ import Banner from './Components/Banner';
 import MainSection from './Components/MainSection';
 import Navbar from './Components/Navbar';
 import Rating from './Components/Rating';
+import Steps from './Components/Steps';
+import Pricing from './Components/Pricing';
 
 function App() {
 
@@ -37,7 +39,9 @@ function App() {
         onRemove={handleRemove}
         onCheckout={handleCheckout}
       ></MainSection>
-      
+      <Steps></Steps>
+      <Pricing></Pricing>
+
     </div>
   );
 }

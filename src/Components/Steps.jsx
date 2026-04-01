@@ -30,8 +30,8 @@ const steps = [
 
 const Steps = () => {
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 bg-white">
-      <div className="max-w-5xl mx-auto text-center">
+    <section className="py-16 px-4 md:px-8 lg:px-16 bg-[#F9FAFC]">
+      <div className="max-w-5xl mx-auto text-center relative">
         <h2 className="text-3xl font-extrabold text-gray-900 mb-2">
           Get Started in 3 Steps
         </h2>
@@ -39,9 +39,16 @@ const Steps = () => {
           Start using premium digital tools in minutes, not hours.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative ">
           {steps.map((item, i) => (
-            <div key={i} className="flex flex-col items-center text-center">
+            <div
+              key={i}
+              className="flex flex-col items-center text-center shadow-sm rounded-2xl p-10 bg-white relative"
+            >
+              <div className="text-white font-bold rounded-full p-4 text-sm absolute top-1 right-2 bg-violet-600">
+                <p>{item.step}</p>
+              </div>
+
               <div
                 className={`w-20 h-20 rounded-2xl ${item.color} flex items-center justify-center mb-4 shadow-sm`}
               >
@@ -51,9 +58,9 @@ const Steps = () => {
                   className="w-10 h-10 object-contain"
                 />
               </div>
-              <span className="text-xs font-bold text-violet-400 mb-1">
+              {/* <span className="text-xs font-bold text-violet-400 mb-1">
                 STEP {item.step}
-              </span>
+              </span> */}
               <h3 className="text-lg font-bold text-gray-900 mb-2">
                 {item.title}
               </h3>

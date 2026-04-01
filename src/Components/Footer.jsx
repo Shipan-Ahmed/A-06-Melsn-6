@@ -7,8 +7,8 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 pt-12 pb-6 px-4 md:px-8 lg:px-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-10">
-        <div className="lg:col-span-2">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 text-center md:text-center-none lg:text-center-none md:grid-cols-3 lg:grid-cols-6 gap-6 mb-10  ">
+        <div className="lg:col-span-2 text-center md:text-start flex flex-col items-center md:justify-start md:items-start gap-4">
           <div className="flex items-center gap-2 mb-3">
             <img src={rocketIcon} alt="logo" className="w-6 h-6" />
             <span className="text-white font-bold text-lg">DigiTools</span>
@@ -49,18 +49,18 @@ const Footer = () => {
           </div>
         ))}
 
-        <div>
-          <h4 className="text-white font-semibold text-sm mb-4">
+        <div className="flex flex-col justify-around items-center md:items-start md:justify-start">
+          <h4 className="text-white font-semibold text-sm mb-4 md:text-start">
             Social Links
           </h4>
-          <div className="flex space-x-2">
-            <p className="rounded-full p-2 bg-white">
+          <div className="flex gap-1 items-center md:gap-2 md:justify-start">
+            <p className="rounded-full p-2 bg-white flex items-center ">
               <AiFillInstagram  />
             </p>
-            <p className="rounded-full p-2 bg-white ">
+            <p className="rounded-full p-2 bg-white flex items-center ">
               <FaFacebook  />
             </p>
-            <p className="rounded-full p-2 bg-white">
+            <p className="rounded-full p-2 bg-white flex items-center ">
               <FaXTwitter  />
             </p>
           </div>

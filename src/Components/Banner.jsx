@@ -8,7 +8,7 @@ const Banner = () => {
     <section className="bg-white mt-10 py-10 px-4 md:px-8 lg:px-16">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         <div  >
-          <div className="inline-flex items-center gap-2 bg-[#E1E7FF] border border-violet-300 text-violet-600 text-xs px-3 py-1.5 rounded-full mb-4">
+          <div className="inline-flex items-center pt-2 gap-2 bg-[#E1E7FF] border border-violet-300 text-violet-600 text-xs px-3 py-1.5 rounded-full mb-4">
             <span className="w-2 h-2 rounded-full bg-violet-700 inline-block"></span>
             New: AI-Powered Tools Available
           </div>
@@ -36,7 +36,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className=" flex justify-center md:justify-end">
+        <div className=" flex justify-center pb-4 md:justify-end">
           <img
             src={bannerImg}
             alt="Digital tools banner"
